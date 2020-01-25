@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	SMIME
 Summary:	Crypt::SMIME - S/MIME message signing, verification, encryption and decryption
