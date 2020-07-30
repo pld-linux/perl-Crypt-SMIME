@@ -17,6 +17,7 @@ URL:		http://search.cpan.org/dist/Crypt-SMIME/
 BuildRequires:	openssl-devel >= 0.9.9
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl(ExtUtils::CChecker)
+BuildRequires:	perl(ExtUtils::PkgConfig)
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	openssl
