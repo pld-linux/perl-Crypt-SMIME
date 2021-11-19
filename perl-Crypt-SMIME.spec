@@ -7,12 +7,12 @@
 Summary:	Crypt::SMIME - S/MIME message signing, verification, encryption and decryption
 Summary(pl.UTF-8):	Crypt::SMIME - podpisywanie, weryfikacja, szyfrowanie i odszyfrowywanie wiadomości S/MIME
 Name:		perl-Crypt-SMIME
-Version:	0.25
+Version:	0.28
 Release:	1
 License:	LGPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7afe3f4dedd6f569efb1effcd432eacc
+# Source0-md5:	4383dfc8417ef9effdb9c19feff480b8
 URL:		http://search.cpan.org/dist/Crypt-SMIME/
 BuildRequires:	openssl-devel >= 0.9.9
 BuildRequires:	perl-devel >= 1:5.8.0
